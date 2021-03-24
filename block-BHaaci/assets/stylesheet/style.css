@@ -84,6 +84,23 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.btn {
+    color: #fff;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 15px 15px;
+    display: block;
+    border-radius: 6px;
+    border: 0;
+    outline: 0;
+}
+ .btn-primary {
+    background-color: #5E54A3;
+}
+.btn-secondary {
+    background-color: #53CD8A;
+}
 /* Hero */
 
 .hero {
@@ -108,18 +125,6 @@ body {
 .form {
     /* background-color: blue; */
     align-self: stretch;
-}
-
-.form .blue {
-    background-color: #5E54A3;
-    color: #fff;
-    width: 100%;
-    margin-bottom: 30px;
-    padding: 15px 15px;
-    display: block;
-    border-radius: 6px;
-    border: 0;
-    outline: 0;
 }
 
 .blue strong {
@@ -149,24 +154,12 @@ form {
 .form-control:focus {
     border: 1px solid blue;
 }
-.green {
-    background-color: #53CD8A;
-    color: #fff;
-    text-transform: uppercase;
-    padding: 15px 15px;
-    display: block;
-    width: 100%;
-    display: block;
-    border-radius: 6px;
-    border: 0;
-    outline: 0;
-    margin-bottom: 10px;
-}
 
 small, span {
     font-size: 10px;
     color: #272727;
 }
-span {
+small a {
     color: crimson;
+    text-decoration: none;
 }
