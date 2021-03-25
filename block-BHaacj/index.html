@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building HTML forms II</title>
+    <script src="https://kit.fontawesome.com/474e96f807.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="navigation container flex">
+            <div class="brand flex">
+                    <img src="/assets/logo.png" alt="logo">
+                    <a class="logo" href="#">Journey</a>
+            </div>
+            <nav class="nav">
+                <ul class="main-menu flex">
+                    <li class="sub-menu"><a class="transform" href="#">Home</a></li>
+                    <li class="sub-menu"><a class="transform" href="#">Top destinations</a></li>
+                    <li class="sub-menu"><a class="transform" href="#">Recommended places</a></li>
+                    <li class="sub-menu"><a class="transform" href="#">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+
+    <main class="hero">
+        <section class="section container">
+            <div class="wrapper flex modify">
+                <h1 class="heading upper">Let's begin</h1>
+                <img src="/assets/dots-3.png" alt="dots">
+                <p>We assist yo to chose the best.</p>
+                <span class="flex center"><i class="fas fa-chevron-down"></i></span>
+            </div>
+            <form action="#" class="flex form">
+                <fieldset class="flex-45">
+                    <div>
+                        <label for="destination" class="transform">Chose your destination</label>
+                        <input type="text" id="destination" name="destination" class="form-control transform w100" placeholder="type your destination">
+                    </div>
+                    <div class="flex">
+                        <div class="mright">
+                            <label for="check-in" class="transform">check in date</label>
+                            <input type="date" class="form-control" id="check-in" name="check-in">
+                        </div>
+                        <div>
+                            <label for="check-out" class="transform">check out date</label>
+                            <input type="date" class="form-control" id="check-out" name="check-out">
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="second-part flex-45">
+                    <div class="flex">
+                        <div>
+                            <label for="rooms" class="transform">How many rooms</label>
+                            <input type="number" max="5" min="1" id="rooms" name="rooms" class="form-control w100">
+                        </div>
+                        <div>
+                            <label for="adult" class="transform">Adults</label>
+                            <input type="number" max="5" min="1" id="adult" name="adult" class="form-control w100">
+                        </div>
+                        <div>
+                            <label for="children" class="transform">Children</label>
+                            <input type="number" max="5" min="1" id="children" name="children" class="form-control w100">
+                        </div>
+                    </div>
+                        <button class="upper btn">Check availability</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <!-- Section 2 -->
+
+        <section class="section2 container">
+            <div class="box flex modify">
+                <h2 class="align upper m20bot">Your <strong>Journey</strong> is our priority</h2>
+                <p class="align m20bot">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed est dolores voluptas exercitationem nobis omnis eum ad quod asperiores.ed est dolores voluptas.            </p>
+                <a href="#" class="btn upper align">Continue explore</a>
+            </div>
+        </section>
+
+        <!-- Section 3 -->
+
+        <section class="section3 container">
+            <article class="europe flex">
+                <div class="place-img flex-55">
+                    <img class="img-style" src="/assets/tm-img-01.jpg" alt="img-01">
+                </div>
+                <div class="europe-details flex-45">
+                    <h3 class="m10bot">Europe's most visited places</h3>
+                    <p class="f14 m30bot">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, facere amet? Amet eos id eligendi consequuntur ut, expedita doloribus magni corporis odio cumque
+                        .</p>
+                    <a href="#" class="btn btn-primary upper">Continue reading</a>
+                </div>
+                
+                <span class="left flex center"><i class="fas fa-chevron-circle-left"></i></span>
+                <span class="right flex center"><i class="fas fa-chevron-circle-right"></i></span>
+            </article>
+        </section>
+
+        <!-- Section 4 -->
+
+        <section class="section4 container">
+            <article class="asia flex">
+                <div class="asia-details flex-45">
+                    <h3 class="m10bot">Asia's most popular places</h3>
+                    <p class="f14 m30bot">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, facere amet? Amet eos id eligendi consequuntur ut, expedita doloribus magni corporis odio cumque.</p>
+                    <a href="#" class="btn btn-primary upper">Continue reading</a>
+                </div>
+                <div class="place-img flex-55 asia-img">
+                    <img class="img-style" src="/assets/tm-img-02.jpg" alt="img-02">
+                </div>
+                <span class="left flex center"><i class="fas fa-chevron-circle-left"></i></span>
+                <span class="right flex center"><i class="fas fa-chevron-circle-right"></i></span>
+            </article>
+        </section>
+
+        <!-- Section 5 -->
+
+        <section class="section5 container">
+            <article class="america flex">
+                <div class="place-img flex-55">
+                    <img class="img-style" src="/assets/tm-img-03.jpg" alt="img-03">
+                </div>
+                <div class="europe-details flex-45">
+                    <h3 class="m10bot">America's most famous places</h3>
+                    <p class="f14 m30bot">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, facere amet? Amet eos id eligendi consequuntur ut, expedita doloribus magni corporis odio cumque
+                        .</p>
+                    <a href="#" class="btn btn-primary upper">Continue reading</a>
+                </div>
+                
+                <span class="left flex center"><i class="fas fa-chevron-circle-left"></i></span>
+                <span class="right flex center"><i class="fas fa-chevron-circle-right"></i></span>
+            </article>
+        </section>
+
+        <!-- Section 6 -->
+
+        <section class="section6 container">
+            <div class="world-map flex">
+                <div class="map map1 flex-14 flex end center">
+                    <h4 class="upper  align m10top">North america</h4>
+                </div>
+                <div class="map map2 flex-14 flex end center">
+                    <h4 class="upper align m20top">South america</h4>
+                </div>
+                <div class="map map3 flex-14 flex end center">
+                    <h4 class="upper align m10top">Europe</h4>
+                </div>
+                <div class="map map4 flex-14 flex end center">
+                    <h4 class="upper align m10top">Asia</h4>
+                </div>
+                <div class="map map5 flex-14 flex end center">
+                    <h4 class="upper align m10top">Africa</h4>
+                </div>
+                <div class="map map6 flex-14 flex end center">
+                    <h4 class="upper align m10top">australia</h4>
+                </div>
+                <div class="map map6 flex-14 flex end center">
+                    <h4 class="upper align m10top">Antartica</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 7 -->
+
+        <section class="section7 mini-container bg-color">
+            <article class="flex hotel-details m20bot">
+                <div class="flex-25 hotel-img">
+                    <img src="/assets/tm-img-04.jpg" alt="img-04" class="img-style">
+                </div>
+                <div class="details flex-45 m20bot">
+                    <h5 class="upper">Asia resort hotel</h5>
+                    <p class="pink m10bot">Singapore</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quasi ratione ex cumque, est quo?</p>
+                </div>
+                <div class="price-details flex-25 flex fdirection">
+                    <h4 class="m20bot">$440</h4>
+                    <p class="upper align">Continue reading</p>
+                </div>
+            </article>
+            <article class="flex hotel-details m20bot">
+                <div class="flex-25 hotel-img">
+                    <img src="/assets/tm-img-05.jpg" alt="img-05" class="img-style">
+                </div>
+                <div class="details flex-45 m20bot">
+                    <h5 class="upper">Nullam Eget est nisl</h5>
+                    <p class="pink m10bot">Yangon, Myanmmar</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quasi ratione ex cumque, est quo?</p>
+                </div>
+                <div class="price-details flex-25 flex fdirection">
+                    <h4 class="m20bot">$450</h4>
+                    <p class="upper align">Continue reading</p>
+                </div>
+            </article>
+
+            <article class="flex hotel-details m20bot">
+                <div class="flex-25 hotel-img">
+                    <img src="/assets/tm-img-06.jpg" alt="img-06" class="img-style">
+                </div>
+                <div class="details flex-45 m20bot">
+                    <h5 class="upper">Proin interdum ullamcorper</h5>
+                    <p class="pink m10bot">Bangok, Thailand</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quasi ratione ex cumque, est quo?</p>
+                </div>
+                <div class="price-details flex-25 flex fdirection">
+                    <h4 class="m20bot">$460</h4>
+                    <p class="upper align">Continue reading</p>
+                </div>
+            </article>
+            <article class="flex hotel-details m20bot">
+                <div class="flex-25 hotel-img">
+                    <img src="/assets/tm-img-07.jpg" alt="img-07" class="img-style">
+                </div>
+                <div class="details flex-45 m20bot">
+                    <h5 class="upper">Lorem ipsum dolor sit amet consectetur.</h5>
+                    <p class="pink m10bot">Vientbane, Laos</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quasi ratione ex cumque, est quo?</p>
+                </div>
+                <div class="price-details flex-25 flex fdirection">
+                    <h4 class="m20bot">$470</h4>
+                    <p class="upper align">Continue reading</p>
+                </div>
+            </article>
+            <div class="flex center">
+                <a href="#" class="btn upper">show more places</a>
+            </div>
+        </section>
+        
+        <!-- Section 8 -->
+
+        <section class="section-8 container">
+            <div class="location m30top">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.004440911743!2d-3.690522384602948!3d40.45303867936086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228e23705d39f%3A0xa8fff6d26e2b1988!2sSantiago%20Bernab%C3%A9u%20Stadium!5e0!3m2!1sen!2sin!4v1616669550680!5m2!1sen!2sin" width="1040" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <form action="#" class="contact-details">
+                <div class="flex">
+                <input type="text" name="fname" placeholder="Name" class="flex45 input-details m-right">
+                <input type="email" name="email" placeholder="Email" class="flex45 input-details">
+                </div>
+                <select name="subject" id="subject" class="input-details gray">
+                    <option value="">Subject</option>
+                    <option value="subject1">subject 1</option>
+                    <option value="subject1">subject 1</option>
+                    <option value="subject1">subject 1</option>
+                </select>
+                <textarea name="comments" id="comments" rows="5" placeholder="Message" class="input-details"></textarea>
+                <button class="upper btn">send message now</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    
+    <footer class="footer container align">
+        <small class="transform">Copyright &#169; Your company Designed by Template Mo</small>
+    </footer>
+</body>
+</html>
